@@ -1,0 +1,9 @@
+.vscode
+config
+dist
+node_modules
+gulpfile.js
+package-lock.json
+server.js
+tests
+temp

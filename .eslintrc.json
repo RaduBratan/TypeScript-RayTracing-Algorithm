@@ -1,0 +1,56 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"commonjs": true,
+		"es6": true,
+		"jquery": true
+	},
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "./tsconfig.json"
+	},
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking"
+	],
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		],
+		"linebreak-style": [
+			0,
+			"windows"
+		],
+		"quotes": [
+			"error",
+			"double"
+		],
+		"semi": [
+			"error",
+			"always"
+		],
+		"camelcase": 1,
+		"comma-dangle": [
+			1,
+			"never"
+		],
+		"comma-spacing": 1,
+		"no-trailing-spaces": 1,
+		"no-unused-vars": 0,
+		"@typescript-eslint/explicit-module-boundary-types": 1,
+		"@typescript-eslint/no-unsafe-member-access": 0,
+		"@typescript-eslint/no-explicit-any": 0,
+		"@typescript-eslint/no-unused-expressions": 1,
+		"@typescript-eslint/restrict-plus-operands": 0,
+		"@typescript-eslint/no-unsafe-call": 0,
+		"@typescript-eslint/no-unsafe-assignment": 0,
+		"@typescript-eslint/no-non-null-assertion": 0
+	}
+}
